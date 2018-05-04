@@ -1,0 +1,18 @@
+.\"Manpage for assemble.sh
+.TH man 8 "08 Jan 2018" "1.0" "assemble.sh man page"
+.SH NAME
+assemble.sh
+.SH SYNOPSIS
+assemble.sh [PROGRAM NAME]
+.SH DESCRIPTION
+assemble.sh assembles a .s file in the /home/pi/asm folder.  It will not
+execute if outside of this folder.  Additionally, use just the name without
+the .s extension.
+.SH OPTIONS
+There are not options currently.
+.SH SEE ALSO
+as
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Caleb M. Carr (Caleb.M.Carr.@ou.edu)
